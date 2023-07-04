@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Remove Background from Image</title>
-	<link rel="stylesheet" type="text/css" href="style.css">	
-
+    <title>Background Remover</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Remove Background from Image</h1>
-	<form action="/removebg" method="post" enctype="multipart/form-data">
-		<label for="image">Select an image to upload:</label>
-		<input type="file" id="image" name="image"><br><br>
-		<input type="submit" value="Remove Background">
-	</form>
+    <h1>Background Remover</h1>
+    <form action="upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept=".png, .jpg, .jpeg" required>
+        <button type="submit">Upload and Remove Background</button>
+    </form>
+    <div id="result">
+        <!-- The background removed image will be displayed here -->
+    </div>
 </body>
 </html>

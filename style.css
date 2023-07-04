@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result img {
+    max-width: 500px;
+}
